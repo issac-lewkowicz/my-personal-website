@@ -1,10 +1,55 @@
-body {
+header {
     text-align: center;
-    background: url("./pics/wineglass-bay.jpg");
+    background: url('https://cdn.pixabay.com/photo/2016/09/01/19/53/pocket-watch-1637396__340.jpg');
     background-size: cover;
-    background-position:  auto;
-    background-repeat: no-repeat;
-    color: magenta;
-    font-family: georgia;
+    color: rgba(254,230,83,1);
+  }
+a {
+    color: white;
+  }
+h1 {
+    font-size: 70px;
+  }
+img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+    width: 160px
     
+  }
+ul {
+    padding: 10px;
+    background: rgba(127,0,127,0.5);
+  }
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+@media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+  }
+  body {
+    background: rgba(117, 117, 117,0.3);
+  }
+  button {
+    background: rgba(109, 132, 180,0.6);
+    text-align: center;
+    
+  }
+    h3 {
+      font-size: 30px;
+      text-align: center;
+      text-decoration: underline;
   }
